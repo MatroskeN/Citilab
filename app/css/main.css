@@ -1010,6 +1010,7 @@ body .about .about-wrapper .about-right p {
   color: #4C5257;
 }
 body .signup {
+  margin-top: 81px;
   position: relative;
   background: #9EC9E2;
   width: 100%;
