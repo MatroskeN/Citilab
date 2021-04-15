@@ -567,6 +567,7 @@ body{
             
         }
         .mbanner-pagination{
+            display: block !important;
             max-width: 320px;
             left: 50%;
             transform: translateX(-50%);
@@ -891,6 +892,7 @@ body{
                     .slider{
                         width: 100%;
                         height: 192px;
+                        border-radius: 8px;
                     }
                 }
                 .navigation-popular{
@@ -1154,7 +1156,7 @@ body{
                                 flex-direction: column;
                                 align-items: flex-end;
                                 .stars{
-                                    width: 110px;
+                                    width: 106px;
                                 }
                                 .date{
                                     margin-left: unset !important;
@@ -1316,6 +1318,8 @@ body{
                         color: #4C5257;
                     }
                     .mabout-items{
+                        display: flex;
+                        flex-direction: column;
                         width: 280px;
                         margin:0 auto;
                         margin-top: 25px;
@@ -1487,8 +1491,10 @@ body{
                         padding:unset !important;
                         width: 206px;
                         display: flex;
-                        margin: 0  auto;
-                        margin-bottom:20px;
+                        margin-right: unset !important;
+                        margin-left: unset !important;
+                        margin: 0 auto !important;
+                        margin-bottom: 20px !important; 
                         p{
                             margin: 0 auto;
                             font-size: 12px !important;
@@ -1750,6 +1756,8 @@ body{
     }
     @media(max-width:768px){
         footer{
+            background: url(../img/Изображения/Главная/mfooter.png) no-repeat center;
+            background-size: cover;
             .footer-wrapper{
                 display: none;
             }
@@ -1762,13 +1770,10 @@ body{
             }
 
             .contact-box{
-                width: auto;
+                width: 280px;
                 height: auto;
                 margin: 0 auto;
-
-                background: rgba(255, 255, 255, 0.8);
                 border-radius: 12px;
-                padding-left: 22px;
                 padding-top:18px;
                 padding-right: 22px;
                 padding-bottom: 19px;
@@ -1783,7 +1788,7 @@ body{
                     line-height: 19px;
 
                     color: #4C5257;
-                    margin-bottom: 14px;
+                    margin-bottom: 6px;
                 }
                 .address{
                     font-family: Inter;
@@ -1795,7 +1800,7 @@ body{
 
 
                     color: #4C5257;
-                    margin-bottom: 20px;
+                    margin-bottom: 14px;
                 }
                 .contact-us{
                     margin-bottom: 20px;

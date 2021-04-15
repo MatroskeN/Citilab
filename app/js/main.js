@@ -4,6 +4,7 @@ $(document).ready(function (){
         pagination: {
             el: '.banner-pagination',
             type: 'bullets',
+            clickable: true,
           },
       });
     var swiper1 = new Swiper('.popular-swiper', {
@@ -34,6 +35,7 @@ $(document).ready(function (){
         pagination: {
             el: '.mbanner-pagination',
             type: 'bullets',
+            clickable: true,
           },
       });
 })
