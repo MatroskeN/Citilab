@@ -38,4 +38,16 @@ $(document).ready(function (){
             clickable: true,
           },
       });
+
+
+//modal
+  $("#burger").on("click", function () {
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("body").style.overflow = "hidden";
+});
+
+$("#xclose").on("click", function () {
+    document.getElementById("modal").style.display = "none";
+    document.getElementById("body").style.overflow = "visible";
+});
 })
