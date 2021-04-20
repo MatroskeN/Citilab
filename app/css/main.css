@@ -391,6 +391,8 @@ body .burger {
 }
 body .header-sub-menu {
   height: 50px;
+  -webkit-box-shadow: 0px 4px 8px rgba(167, 167, 167, 0.25);
+          box-shadow: 0px 4px 8px rgba(167, 167, 167, 0.25);
 }
 body .header-sub-menu .header-sub-menu-content {
   position: relative;
@@ -2709,4 +2711,60 @@ body .mnumbers {
   transform-origin: left right;
   -webkit-animation-name: swing;
   animation-name: swing;
+}
+.breadcrumbs {
+  max-width: 1111px;
+  margin: 0 auto;
+  margin-bottom: 23px;
+  margin-top: 25px;
+}
+.breadcrumbs ol {
+  background: transparent;
+  padding-left: unset;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.breadcrumbs ol li {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height */
+  margin-right: 7px;
+}
+.breadcrumbs ol li a {
+  color: #9EC9E2;
+}
+.breadcrumbs ol .active {
+  color: #57a4d1;
+}
+.branches .branches-wrapper {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+.branches .branches-wrapper .branches-title {
+  margin-bottom: 31px;
+}
+.branches .branches-wrapper .branches-title h1 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4C5257;
+}
+.branches .branches-wrapper .branches-items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 77px;
 }
