@@ -523,7 +523,7 @@ body .banner .banner-swiper {
   height: 350px;
 }
 body .banner .slider {
-  background: url(../img/Изображения/Главная/Баннер1.png) center no-repeat;
+  background: url(../img/images/main/banner1.png) center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -623,7 +623,7 @@ body .banner .slider .slide-content .slide-btn:hover .arr {
   height: 38px;
 }
 body .banner .second-slider {
-  background: url(../img/Изображения/Главная/Баннер2.png);
+  background: url(../img/images/main/banner2.png);
 }
 body .banner .banner-pagination {
   max-width: 1111px;
@@ -1132,19 +1132,19 @@ body .popular .popular-wrapper .popular-swiper .slider .slide-btn:hover .arr {
           transform: scale(1.1);
 }
 body .popular .popular-wrapper .popular-swiper .first-slide {
-  background: url(../img/Изображения/Главная/меданализы.jpg) center no-repeat;
+  background: url(../img/images/main/analysis.jpg) center no-repeat;
   background-size: cover;
 }
 body .popular .popular-wrapper .popular-swiper .second-slide {
-  background: url(../img/Изображения/Главная/консултациягинеколога.jpg) center no-repeat;
+  background: url(../img/images/main/consult.jpg) center no-repeat;
   background-size: cover;
 }
 body .popular .popular-wrapper .popular-swiper .third-slide {
-  background: url(../img/Изображения/Главная/апаратУЗИ.jpg) center no-repeat;
+  background: url(../img/images/main/apparat.jpg) center no-repeat;
   background-size: cover;
 }
 body .popular .popular-wrapper .popular-swiper .fourth-slide {
-  background: url(../img/Изображения/Главная/меданализы.jpg) center no-repeat;
+  background: url(../img/images/main/analysis.jpg) center no-repeat;
   background-size: cover;
 }
 @media (max-width: 768px) {
@@ -1364,7 +1364,7 @@ body .reviews .reviews-wrapper .reviews-content .review-swiper .navigation .frac
 body .reviews .reviews-wrapper .reviews-content .review-opinion {
   width: 350px;
   height: 267px;
-  background: url(../img/Изображения/Главная/намважно.png) no-repeat center;
+  background: url(../img/images/main/matter.png) no-repeat center;
   background-size: cover;
   border-radius: 8px;
   margin-left: 30px;
@@ -1881,7 +1881,7 @@ body .signup .doctor img {
 body footer {
   width: 100%;
   height: auto;
-  background: url(../img/Изображения/Главная/Футерфон.png) no-repeat center;
+  background: url(../img/images/main/footer-bg.png) no-repeat center;
   background-size: cover;
 }
 body footer .footer-wrapper {
@@ -2151,7 +2151,7 @@ body .mnumbers {
 }
 @media (max-width: 768px) {
   body footer {
-    background: url(../img/Изображения/Главная/mfooter.png) no-repeat center;
+    background: url(../img/images/main/mfooter.png) no-repeat center;
     background-size: cover;
   }
   body footer .footer-wrapper {
