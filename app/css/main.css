@@ -3068,6 +3068,9 @@ body .mnumbers {
       -ms-transform: scale(1.1);
           transform: scale(1.1);
 }
+.direction {
+  margin-bottom: 90px;
+}
 .direction .direction-wrapper {
   max-width: 1111px;
   margin: 0 auto;
@@ -3236,4 +3239,37 @@ body .mnumbers {
   font-size: 30px;
   line-height: 36px;
   color: #4C5257;
+}
+.direction .direction-wrapper .direction-gallery .direction-swiper {
+  height: 250px;
+}
+.direction .direction-wrapper .direction-gallery .direction-swiper .slider {
+  height: 100%;
+  width: 350px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.direction .direction-wrapper .direction-gallery .direction-swiper .slider img {
+  width: 284px;
+  height: 201px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.direction .direction-wrapper .direction-gallery .direction-swiper .swiper-slide-active img {
+  width: 384px;
+  height: 250px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }

@@ -38,7 +38,14 @@ $(document).ready(function (){
             clickable: true,
           },
       });
-
+      var swiper4 = new Swiper('.direction-swiper', {
+        slidesPerView: 'auto',
+        centeredSlides: true,
+        navigation: {
+            nextEl: '.next-gallery',
+            prevEl: '.prev-gallery',
+          },
+      });
 
 //modal
   $("#burger").on("click", function () {
