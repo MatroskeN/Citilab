@@ -3273,3 +3273,156 @@ body .mnumbers {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
+.contact .contact-wrapper {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+.contact .contact-wrapper .contact-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4C5257;
+  margin-bottom: 45px;
+}
+.contact .contact-wrapper .contact-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 84px;
+}
+.contact .contact-wrapper .contact-content .contact-map {
+  padding-left: 30px;
+  width: 100%;
+}
+.contact .contact-wrapper .contact-content .contact-info {
+  max-height: 408px;
+  padding-top: 15px;
+  padding-left: 31px;
+  padding-right: 58px;
+  background: #FFFFFF;
+  /* shadow programs */
+  -webkit-box-shadow: 0px 6px 13px #E2E2E2;
+          box-shadow: 0px 6px 13px #E2E2E2;
+  border-radius: 8px;
+}
+.contact .contact-wrapper .contact-content .contact-info .info-item {
+  margin-bottom: 22px;
+  width: 262px;
+}
+.contact .contact-wrapper .contact-content .contact-info .info-item strong p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4C5257;
+}
+.contact .contact-wrapper .contact-content .contact-info .info-item p {
+  margin-bottom: unset;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4C5257;
+  margin-bottom: 8px;
+}
+.contact .contact-wrapper .contact-form {
+  max-width: 790px;
+  margin: 0 auto;
+}
+.contact .contact-wrapper .contact-form .form-title {
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4C5257;
+}
+.contact .contact-wrapper .contact-form .form-subtitle {
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  /* identical to box height */
+  color: #4C5257;
+}
+.contact .contact-wrapper .contact-form .small-inputs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contact .contact-wrapper .contact-form .small-inputs input {
+  width: 240px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #E7EDF8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  padding: 8px 0 10px 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4C5257;
+}
+.contact .contact-wrapper .contact-form .small-inputs input ::-webkit-input-placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+.contact .contact-wrapper .contact-form .small-inputs input ::-moz-placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+.contact .contact-wrapper .contact-form .small-inputs input :-ms-input-placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+.contact .contact-wrapper .contact-form .small-inputs input ::-ms-input-placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
+.contact .contact-wrapper .contact-form .small-inputs input ::placeholder {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+}
