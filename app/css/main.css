@@ -3527,3 +3527,41 @@ body .mnumbers {
   color: #4C5257;
   padding-right: 54px;
 }
+.error {
+  background: url(../img/images/404.png) right no-repeat;
+  height: 656px;
+  margin-top: 11px;
+}
+.error .error-wrapper {
+  max-width: 1111px;
+  margin: 0 auto;
+}
+.error .error-wrapper .error-title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  color: #4C5257;
+}
+.error .error-wrapper .error-code {
+  margin-top: 97px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 142.162px;
+  line-height: 165px;
+  color: #2C447D;
+}
+.error .error-wrapper .error-info {
+  margin-top: 40px;
+}
+.error .error-wrapper .error-info p {
+  max-width: 574px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #2C447D;
+}
