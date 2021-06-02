@@ -3525,6 +3525,22 @@ body .mnumbers {
   line-height: 19px;
   color: #4C5257;
   padding-right: 54px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.text-page .text-page__wrapper .text-page__content .text-page__text .table__container {
+  margin: 0 25px 15px 0;
 }
 .error {
   background: url(../img/images/404.png) right no-repeat;
